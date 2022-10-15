@@ -80,6 +80,9 @@ notify = { version = "5.0.0-pre.15", optional = true }
 aes = { version = "0.8", optional = true }
 blake3 = "1.3"
 
+rand_pcg = "0.3.1"
+rand_seeder = "0.2.3"
+
 [target.'cfg(any(target_arch = "x86_64", target_arch = "aarch64"))'.dependencies]
 shadowsocks-crypto = { version = "0.4", features = ["ring"] }
 

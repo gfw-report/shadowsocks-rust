@@ -53,6 +53,12 @@ incremental = false
 panic = "abort"
 strip = true
 
+[profile.dev]
+incremental = false
+panic = "abort"
+strip = false
+debug = true
+
 [features]
 default = [
     "logging",
